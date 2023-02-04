@@ -1,0 +1,26 @@
+##########################################################################################
+#   MERN Stack Course - ALSO: Convert Backend to Serverless with MongoDB Realm
+#
+#   https://www.youtube.com/watch?v=mrHNSanmqQ4&ab_channel=freeCodeCamp.org
+#
+##########################################################################################
+
+
+cd backend
+npm init -y
+npm install express cors mongodb dotenv
+
+├── cors@2.8.5
+├── dotenv@16.0.3
+├── express@4.18.2
+└── mongodb@5.0.0
+
+sudo npm install -g nodemon
+
+touch .env
+
+``
+RESTREVIEWS_DB_URI=mongodb+srv://<username>:<password>@<cluster.address>.mongodb.net/?retryWrites=true&w=majority
+RESTREVIEWS_NS=sample_restaurants
+PORT=5000
+``
